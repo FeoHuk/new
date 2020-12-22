@@ -26,13 +26,7 @@ h3 {
     font-style: oblique;
     color: yellow;
 }
-.address {
+ .address {
     color: tomato;
     scrollbar-highlight-color: teal;
-}
-.link {
-    font-size: 100;
-    font-style: italic;
-    color: rgb(41, 10, 77);
-    column-count: unset;
 }
