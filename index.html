@@ -6,21 +6,62 @@
     <title>клиника</title>
     <link rel="stylesheet" href="./css/style.css">
 </head>
-<body>
+<body class="body">
    <header>
+    <form action="" method="post">
+        <!--Создаем форму-->
+        <textarea placeholder="Сообщение" name="message" rows="10" cols="45"></textarea>
+        <!--Поле для ввода сообщения-->
+        <input type="text" placeholder="Имя" name="fname" />
+        <!--Создаем строку для ввода имени-->
+    </form>
+    <style>
+        .imgg {
+             imgg-align: center;
+        }
+    </style>
+    <div class="tex">
+
+    </div>
+                <div class="imgg">
+
+    <img src="./images/home-pic5 1.jpg" alt="">
+    </div>
+    <style>
+        .text {
+            text-align: center;
+        }
+    </style>
+    <div class="text">
+         <form name="comment" action="comment.php" method="post">
+        <p>
+            <label>Комментарий:</label>
+            <br />
+            <textarea name="text_comment" cols="50" rows="5"></textarea>
+        </p>
+        <p>
+            <label>Имя:</label>
+            <input type="text" name="name" />
+        </p>
+        <p>
+            <input type="hidden" name="page_id" value="150" />
+            <input type="submit" value="Отправить" />
+        </p>
+    </form>
+    </div>
        <div>
             <nav>
                 <a href="./index.html">МоЯ КлИнИкА</a>
                 <div>
-                    <ul>
-                        <li><a class="link" href="./index.html">Главная</a></li>
-                        <li><a class="link" href="./uslygi.html">Услуги</a></li>
-                        <li><a class="link" href="./raboti.html">Работы</a></li>
-                        <li><a class="link" href="./onas.html">О Нас</a></li>
+                    <ul class="title">
+                        <li><a href="./index.html">Главная</a></li>
+                        <li><a href="./uslygi.html">Услуги</a></li>
+                        <li><a href="./raboti.html">Работы</a></li>
+                        <li><a href="./onas.html">О Нас</a></li>
                     </ul>
                 </div>
             </nav>
-            <address>
+            <address class="address">
                 <div>
                     <ul>
                         <li><a href="mailto:em4ik2410@gmail.com">em4ik2410@gmail.com</a></li>
@@ -63,7 +104,7 @@
    </main>
    <footer>
     <address>
-        <p>улица шевченко 1</p>
+        <h3>улица шевченко 1</h3>
         <div>
             <ul>
                 <li><a href="mailto:em4ik2410@gmail.com">em4ik2410@gmail.com</a></li>
@@ -73,6 +114,6 @@
     </address>
 
    </footer>
-    
+
 </body>
 </html>
